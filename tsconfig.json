@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "es6",                   // minúsculo, padrão recomendado
+    "lib": ["dom", "dom.iterable", "esnext"],  // minúsculo, padronizado
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "esnext",               // minúsculo, padrão recomendado
+    "moduleResolution": "node",      // 'node' é mais comum e recomendado que 'bundler'
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",                      // ✅ Adicionado para os paths funcionarem
+    "baseUrl": ".",                  // mantém para resolver alias
     "paths": {
       "@/*": ["./*"]
     },

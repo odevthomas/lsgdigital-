@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['localhost', 'obscure-spoon-69p9w5qwvq6q25r74-3000.app.github.dev'],
+    domains: [
+      'obscure-spoon-69p9w5qwvq6q25r74-3000.app.github.dev',
+    ],
   },
   async headers() {
     return [
@@ -14,8 +16,8 @@ const nextConfig = {
           },
         ],
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
