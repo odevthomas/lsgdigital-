@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true, // Ignora erros de ESLint na build
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true, // Ignora erros de TypeScript na build
   },
   images: {
-    unoptimized: true,
+    unoptimized: true, // Desativa a otimização de imagens do Next.js
   },
 }
 
